@@ -56,7 +56,7 @@ while True:
     percent_text = percent_box.text.strip()
     percent = float(percent_text.replace("%", ""))
     print(percent)
-    if percent >= 10:
+    if percent >= 5:
         check_color()
         time.sleep(120)
     else:
